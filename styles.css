@@ -1,4 +1,50 @@
-div{
-    margin-right: auto;
-    margin-left: auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 2px solid pink;
+}
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+.content {
+    text-align: center;
+    padding: 50px;
+}
+.content h1 {
+    font-size: 36px;
+}
+.car-image {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid pink;
+}
+.desc-box {
+    background: yellow;
+    padding: 10px;
+    display: inline-block;
+}
+.discover-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
