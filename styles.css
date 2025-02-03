@@ -1,56 +1,89 @@
-body {
-    font-family: Arial, sans-serif;
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.navbar {
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000;
+  }
+  
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    border-bottom: 2px solid pink;
-}
-.logo {
-    font-weight: bold;
+    padding: 20px 40px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .logo {
     font-size: 24px;
-    border: 2px solid black;
-    padding: 5px 10px;
-}
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
-.content {
-    text-align: center;
-    padding: 50px;
-}
-.content h1 {
-    font-size: 36px;
-}
-.car-image {
-    width: 80%;
-    display: block;
-    margin: 20px auto;
-}
-.desc-box {
-    background: yellow;
-    padding: 10px;
-    display: inline-block;
-}
-.discover-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
     font-weight: bold;
-}
-
-.container{
-    width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+    letter-spacing: 2px;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .icons .icon {
+    margin-left: 15px;
+    font-size: 20px;
+  }
+  
+  .main {
+    padding: 40px;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .byline {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .discover-btn {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
