@@ -32,7 +32,6 @@ body {
     width: 80%;
     display: block;
     margin: 20px auto;
-    border: 3px solid pink;
 }
 .desc-box {
     background: yellow;
