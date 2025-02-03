@@ -16,7 +16,6 @@ body {
     font-size: 24px;
     border: 2px solid black;
     padding: 5px 10px;
-
 }
 .nav-links {
     display: flex;
@@ -49,18 +48,6 @@ body {
     font-weight: bold;
 }
 
-.menu ul{
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu img{
-    width: 1,512px;
-    height: 37px;
-}
-
-.menu{
-    padding: auto;
+.container{
+    width: 1300px;
 }
