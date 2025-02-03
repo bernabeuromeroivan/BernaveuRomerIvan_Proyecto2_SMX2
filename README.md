@@ -1,1 +1,0 @@
-# BernaveuRomerIvan_Proyecto2_SMX2
