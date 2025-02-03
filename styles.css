@@ -55,3 +55,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.menu img{
+    width: 1,512px;
+    height: 37px;
+}
+
+.menu{
+    padding: auto;
+}
