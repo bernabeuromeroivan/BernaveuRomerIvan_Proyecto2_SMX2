@@ -1,57 +1,113 @@
-body {
-  font-family: Arial, sans-serif;
+/* General Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #000;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
 }
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
 }
-nav li {
-  margin-right: 20px;
-}
-nav a {
-  color: #fff;
+
+.nav a {
+  margin: 0 15px;
   text-decoration: none;
+  color: #000;
+  font-size: 16px;
 }
-main {
-  padding: 20px;
+
+.nav a:hover {
+  text-decoration: underline;
 }
+
+.icons {
+  font-size: 20px;
+}
+
+.main {
+  padding: 40px;
+}
+
 .hero {
-  background-image: url('image.png');
-  background-size: cover;
-  background-position: center;
-  height: 400px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  color: #fff;
-  text-align: center;
+  justify-content: space-between;
 }
-.hero h1 {
-  font-size: 36px;
+
+.hero-text {
+  max-width: 50%;
+}
+
+.byline {
+  font-size: 14px;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
-.hero p {
-  font-size: 18px;
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
-.hero button {
-  background-color: #333;
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.discover-btn {
+  padding: 10px 20px;
+  background-color: #000;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.discover-btn:hover {
+  background-color: #444;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  max-width: 500px;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: yellow;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
