@@ -1,8 +1,10 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  width: 1512px;
   box-sizing: border-box;
+  justify-content: center;
+  border: 1px solid;
 }
 
 body {
@@ -110,7 +112,7 @@ body {
 }
 
 .image-centered img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border: 4px solid yellow;
   border-radius: 10px;
