@@ -7,34 +7,54 @@
   border: 1px solid;
 }
 
-.main.titulo{
+.titulo{
   width: 800px;
   height: 230px;
-  top: 204px;
-  left: 100px;
+  margin-top: 204px;
+  margin-left: 100px;
   weight: 500;
-  size: 96px;
+  font-size: 96px;
+  
 }
 
-.container,header{
-  width: 1512px;
+.encabezado{
+  width: 1440px;
   height: 37px;
-  top: 43px;
+  margin-top: 43px;
   justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .persona{
   width: 26px;
   height: 26px;
-  top: 5,5px;
-  left: 1330px;
+  margin-top: 5,5px;
+  margin-left: 1330px;
   border: 0,5px;
 }
 
 .texto2{
   width: 343px;
   height: 129px;
-  top: 228px;
-  left: 1069px;
+  margin-top: 228px;
+  margin-left: 1069px;
   text-align: justify;
+}
+
+.discover{
+  width: 147px;
+  height: 37px;
+  margin-top: 374px;
+  margin-left: 997px;
+  border-radius: 23px;
+  border: 1px;
+}
+
+.image{
+  width: 1240px;
+  height: 457px;
+  margin-top: 455px;
+  margin-left: 100px;
+  border-radius: 20px;
 }
