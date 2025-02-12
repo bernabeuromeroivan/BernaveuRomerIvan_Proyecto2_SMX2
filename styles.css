@@ -7,12 +7,12 @@
   border: 1px solid;
 }
 
-.main,title{
+.main.titulo{
   width: 800px;
   height: 230px;
   top: 204px;
   left: 100px;
-  font-weight: 500;
+  weight: 500;
   size: 96px;
 }
 
@@ -23,7 +23,7 @@
   justify-content: space-between;
 }
 
-.icons.persona{
+.persona{
   width: 26px;
   height: 26px;
   top: 5,5px;
