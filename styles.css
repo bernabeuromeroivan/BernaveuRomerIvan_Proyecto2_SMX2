@@ -22,3 +22,11 @@
   top: 43px;
   justify-content: space-between;
 }
+
+.icons.persona{
+  width: 26px;
+  height: 26px;
+  top: 5,5px;
+  left: 1330px;
+  border: 0,5px;
+}
