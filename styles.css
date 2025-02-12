@@ -7,11 +7,18 @@
   border: 1px solid;
 }
 
-.title{
+.main,title{
   width: 800px;
   height: 230px;
   top: 204px;
   left: 100px;
   font-weight: 500;
   size: 96px;
+}
+
+.container,header{
+  width: 1512px;
+  height: 37px;
+  top: 43px;
+  justify-content: space-between;
 }
