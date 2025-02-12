@@ -2,59 +2,11 @@
   margin-right: auto;
   margin-left: auto;
   width: 1512px;
-  box-sizing: border-box;
-  justify-content: center;
-  border: 1px solid;
+}
+body {
+  margin: 0;
+  font-family: 'SF Pro Display', sans-serif;                                          
+  color: #000;
+  line-height: 1.6;
 }
 
-.titulo{
-  width: 800px;
-  height: 230px;
-  margin-top: 204px;
-  margin-left: 100px;
-  weight: 500;
-  font-size: 96px;
-  
-}
-
-.encabezado{
-  width: 1440px;
-  height: 37px;
-  margin-top: 43px;
-  justify-content: space-between;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-.persona{
-  width: 26px;
-  height: 26px;
-  margin-top: 5,5px;
-  margin-left: 1330px;
-  border: 0,5px;
-}
-
-.texto2{
-  width: 343px;
-  height: 129px;
-  margin-top: 228px;
-  margin-left: 1069px;
-  text-align: justify;
-}
-
-.discover{
-  width: 147px;
-  height: 37px;
-  margin-top: 374px;
-  margin-left: 997px;
-  border-radius: 23px;
-  border: 1px;
-}
-
-.image{
-  width: 1240px;
-  height: 457px;
-  margin-top: 455px;
-  margin-left: 100px;
-  border-radius: 20px;
-}
