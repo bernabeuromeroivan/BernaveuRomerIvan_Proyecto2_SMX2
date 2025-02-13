@@ -23,84 +23,27 @@ header {
   font-size: 1.5rem;
 }
 
-header nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: black;
-  font-size: 1rem;
-}
-
 .container2 {
   padding: 2rem;
 }
 
-.hero {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
+.imagen{
+  width: 1312px;
+  height: 457px;
+  top: 455px;
+  left: 100px;
+  border-radius: 20px;  
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin: 0;
-  flex: 1;
-  text-align: left;
-}
-
-.hero-content {
-  flex: 1;
-  text-align: right;
-}
-
-.hero-content p {
-  margin: 1rem 0;
-  font-size: 1rem;
-  max-width: 600px;
-  margin-left: auto;
-}
-
-.hero-content button {
-  background-color: black;
-  color: white;
-  border: none;
-  padding: 0.8rem 1.2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 1.5rem;
-}
-
-.hero-content button:hover {
-  background-color: #555;
-}
-
-.image-container {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
-
-.image-container img {
-  width: 100%;
-  max-width: 1024px;
-  border-radius: 10px;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
-}
 .container3 {
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 20px;
 }
-h1 {
+.derniere {
   font-size: 48px;
   margin-bottom: 20px;
+  text
 }
 .imagenes {
   display: flex;
@@ -170,5 +113,56 @@ h1 {
 
 .boton {
   margin-top: 20px;
+  text-align: center;
+}
+
+.container5 {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.tienda {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.general {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.circle-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 40px auto;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-card {
+  flex: 1 1 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: center;
 }
