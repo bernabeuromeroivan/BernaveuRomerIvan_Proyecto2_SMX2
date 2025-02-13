@@ -1,4 +1,4 @@
-.container{
+.container1 {
   margin-right: auto;
   margin-left: auto;
   width: 1512px;
@@ -10,3 +10,86 @@ body {
   line-height: 1.6;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.container2 {
+  padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-content p {
+  margin: 1rem 0;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.hero-content button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.hero-content button:hover {
+  background-color: #555;
+}
+
+.image-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 1024px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+}
