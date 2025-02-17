@@ -21,6 +21,13 @@ header{
   border-bottom: #000
 }
 
+.titulo1{
+  width: 800;
+  height: 150px;
+  font-size: 96px;
+  line-height: 114.56px;
+}
+
 #container2 {
   padding: 2rem;
 }
