@@ -158,54 +158,21 @@ header {
   color: black;
 }
 
-.footer{
-  flex: 1 1 100%;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
+footer{
+
 }
 
-footer {
+.footer {
   padding: 40px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .newsletter {
   text-align: left;
   margin-bottom: 40px;
-}
-
-.newsletter h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.newsletter-input {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #000;
-  width: 300px;
-}
-
-.newsletter-input input {
-  border: none;
-  outline: none;
-  flex: 1;
-  padding: 10px;
-  font-size: 1rem;
-}
-
-.newsletter-input button {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 
 .menu {
@@ -214,25 +181,6 @@ footer {
   width: 100%;
   max-width: 800px;
   margin-bottom: 40px;
-}
-
-.menu-section {
-  text-align: left;
-}
-
-.menu-section h3 {
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-
-.menu-section ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.menu-section ul li {
-  margin-bottom: 5px;
 }
 
 .btn {
@@ -251,5 +199,10 @@ footer {
   align-items: center;
   width: 100%;
   max-width: 800px;
+}
+
+.logo2{
+  width: 30px;
+  height: 30px;
 }
 
