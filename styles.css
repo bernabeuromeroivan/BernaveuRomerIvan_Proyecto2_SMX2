@@ -21,6 +21,10 @@ header{
   border-bottom: #000
 }
 
+h3{
+  height: 5px;
+}
+
 .titulo1{
   width: 800;
   height: 150px;
@@ -56,6 +60,7 @@ header{
   scroll-snap-type: x mandatory;
   gap: 20px;
 }
+
 .imagen1 {
   min-width: 300px;
   flex: 0 0 auto;
