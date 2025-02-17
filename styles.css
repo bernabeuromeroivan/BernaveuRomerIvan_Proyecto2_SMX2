@@ -12,12 +12,13 @@ body {
 
 header{
   width: 1512px;
-  height: auto;
-  margin-top: 4px;
+  height: 37px;
+  margin-top: 43px;
   justify-content: space-between;
-  padding-top: 50px; ;
-  display: flex; 
-  border-bottom: #000;
+  padding-right: 100px;
+  padding-left: 100px;
+  display: flex;
+  border-bottom: #000
 }
 
 #container2 {
