@@ -10,12 +10,10 @@ body {
   line-height: 1.6;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #ccc;
+header{
+  width: 608px;
+  height: 19px;
+  gap: 100px;
 }
 
 .logo {
@@ -35,7 +33,7 @@ header {
   border-radius: 20px;  
 }
 
-.container3 {
+#container3 {
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 20px;
