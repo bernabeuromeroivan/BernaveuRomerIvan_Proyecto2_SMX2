@@ -12,11 +12,10 @@ body {
 
 header{
   width: 1512px;
-  height: 37px;
-  margin-top: 43px;
+  height: auto;
+  margin-top: 4px;
   justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-top: 50px; ;
   display: flex; 
   border-bottom: #000;
 }
@@ -139,21 +138,8 @@ header{
   flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
   text-align: center;
-}
-
-.circle-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: #ddd;
-  margin: 40px auto;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
+  width: 300;
+  height: 300;
 }
 
 .footer {
