@@ -13,10 +13,11 @@ body {
 header{
   width: 1512px;
   height: 37px;
-  top: 43px;
+  margin-top: 43px;
   justify-content: space-between;
   padding-right: 100px;
-  padding-left: 100px;  
+  padding-left: 100px;
+  display: flex;  
 }
 
 #container2 {
