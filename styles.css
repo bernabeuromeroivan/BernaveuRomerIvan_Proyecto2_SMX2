@@ -10,6 +10,13 @@ body {
   line-height: 1.6;
 }
 
+.encabezado{
+  width: 65;
+  height: 19;
+  text-align: center;
+  justify-content:space-between;
+}
+
 header{
   width: 608px;
   height: 19px;
