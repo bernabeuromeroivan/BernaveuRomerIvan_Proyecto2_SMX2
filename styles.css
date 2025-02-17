@@ -26,14 +26,9 @@ p{
   justify-content: space-between;
   gap: 20px;
   margin-top: 30px;
-  margin-top: 40px;
+  font-size: 13px;
   width: 350px;
   text-align: justify;
-  justify-content: right;
-}
-
-h3{
-  height: 5px;
 }
 
 .titulo1{
