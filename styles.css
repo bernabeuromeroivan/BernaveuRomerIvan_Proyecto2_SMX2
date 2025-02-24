@@ -10,15 +10,16 @@ body {
   line-height: 1.6;
 }
 
-header{
-  width: 1512px;
-  height: 37px;
-  margin-top: 43px;
-  justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;  
+nav{
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 p{
@@ -53,7 +54,7 @@ p{
 
 #container3 {
   padding: 20px;
-
+  align-items: center;
 }
 .derniere {
   font-size: 48px;
@@ -108,54 +109,53 @@ p{
   background-color: #fff;
 }
 
-.boton {
-  text-align: right;
-  margin-top: 20px;
-}
-
 #container4 {
   padding: 20px;
-}
-.subtitulo {
-  font-size: 14px;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-}
-.imagen5 {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  width: 746px;
+  align-items: center;
 }
 
-.boton {
-  margin-top: 20px;
-  text-align: center;
+button{
+  width: 147px;
+  height: 37px;
+  margin-left: 646px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50px;
 }
 
 #container5 {
   max-width: 1200px;
   margin: 50px auto;
-  padding: 0 20px;
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
 }
+
+.imagen5{
+  margin-left: 347px;
+}
+
 .tienda {
   text-align: center;
   font-size: 36px;
   margin-bottom: 20px;
   text-align: left;
 }
-.general {
+
+.products {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
 }
-.card {
-  width: 1311;
-  height: 300;
-  margin-top: 1190px;
-  margin-left: 100px;
-  justify-content: space-between;  
+
+.product {
+  width: 1312px;
+  height: 300px;
+  margin-left: 200px;
+  justify-content: space-between;
 }
 
 .footer {
@@ -177,16 +177,6 @@ p{
   width: 100%;
   max-width: 800px;
   margin-bottom: 40px;
-}
-
-.btn {
-  display: block;
-  border: 1px solid #000;
-  background: none;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  font-size: 0.9rem;
 }
 
 .footer2 {
