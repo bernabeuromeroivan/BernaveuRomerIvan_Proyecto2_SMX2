@@ -19,11 +19,12 @@ body {
 nav{
   display: flex;
   justify-content: space-between;
+  padding: 20px;
   align-items: center;
-  padding: 1rem 2rem;
   border-bottom: 1px solid #ccc;
   color: black;
   margin: 0 1rem;
+  gap: 20px;
 
 }
 
