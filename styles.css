@@ -36,6 +36,7 @@ p{
   width: 343px;
   height: 129px;
   margin-left: 1069px;
+  text-align: justify;margin-top: auto;
 }
 
 .descubrir{
@@ -136,13 +137,14 @@ p{
 }
 
 button{
-  width: 147px;
+  width: 210px;
   height: 37px;
   margin-left: 610px;
   border: 1px solid black;
   cursor: pointer;
   border-radius: 50px;
   align-items: center;
+  background-color: #fff;
 }
 
 #container5 {
