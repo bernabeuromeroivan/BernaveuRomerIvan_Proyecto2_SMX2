@@ -32,6 +32,19 @@ p{
   text-align: justify;
 }
 
+.texto{
+  width: 343px;
+  height: 129px;
+  margin-left: 1069px;
+}
+
+.descubrir{
+  width: 147px;
+  height: 37px;
+  margin-left: 1069px;
+  border-radius: 23px;
+}
+
 .titulo1{
   margin: 0px;
   width: 800;
@@ -114,13 +127,22 @@ p{
   align-items: center;
 }
 
+.subtitulo{
+  width: 210px;
+  height: 65px;
+  margin-left: 607px;
+  size: 16px;
+  text-align: justify;
+}
+
 button{
   width: 147px;
   height: 37px;
-  margin-left: 646px;
+  margin-left: 610px;
   border: 1px solid black;
   cursor: pointer;
   border-radius: 50px;
+  align-items: center;
 }
 
 #container5 {
@@ -129,7 +151,6 @@ button{
   padding: 20px;
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
   gap: 20px;
 }
 
