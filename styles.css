@@ -52,15 +52,13 @@ p{
 }
 
 #container3 {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
+  padding: 20px;
+  
 }
 .derniere {
   font-size: 48px;
   margin-bottom: 20px;
+  margin-left: auto;
 }
 
 .imagenes {
@@ -153,15 +151,11 @@ p{
   justify-content: space-between;
 }
 .card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  flex: 1 1 calc(33.333% - 20px);
-  box-sizing: border-box;
-  text-align: center;
-  width: 300;
+  width: 1311;
   height: 300;
+  margin-top: 1190px;
+  margin-left: 100px;
+  justify-content: space-between;  
 }
 
 .footer {
