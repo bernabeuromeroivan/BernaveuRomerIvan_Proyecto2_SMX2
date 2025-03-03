@@ -257,13 +257,12 @@ button{
   display: flex;
   gap: 20px;
   margin-top: 20px;
-  align-items: center;
 }
 .social {
   display: flex;
   gap: 15px;
-  margin-top: 20px;
   align-items: center;
+  margin-left: 1000px;
 }
 
 .payments img {
