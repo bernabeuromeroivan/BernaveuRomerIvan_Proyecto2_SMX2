@@ -344,6 +344,7 @@ button{
   text-align: center;
   text-transform: uppercase;
   position: relative;
+  border-radius: 100%;
 }
 
 .vitesse{
