@@ -187,49 +187,6 @@ button{
   justify-content: space-between;
 }
 
-.product-section {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 90%;
-  max-width: 1200px;
-  gap: 20px;
-  position: relative;
-}
-
-.circle {
-  width: 120px;
-  height: 120px;
-  border: 2px solid black;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.5;
-  font-weight: bold;
-  flex-shrink: 0;
-}
-
-.product-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  padding: 0;
-}
-
-.product-content img {
-  width: 600px;
-  height: auto;
-  display: block;
-  border-radius: 12px 12px 0 0;
-}
-
 .description {
   padding: 15px;
   text-align: left;
@@ -255,22 +212,6 @@ button{
   padding: 40px 60px;
   gap: 30px;
   position: relative;
-}
-
-.newsletter-input input {
-  border: none;
-  flex: 1;
-  padding: 10px;
-  outline: none;
-  font-size: 14px;
-  color: #aaa;
-}
-
-.newsletter-input button {
-  background: none;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
 }
 
 .menu h3,
